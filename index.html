@@ -1,164 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>Lucy Kim Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Montserrat"
-  />
-  <style>
-    body {
-      border-block: 0;
-    }
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-      font-family: "Montserrat", sans-serif;
-    }
-    .w3-third img {
-      margin-bottom: -6px;
-      opacity: 0.8;
-      cursor: pointer;
-    }
-    .w3-third img:hover {
-      opacity: 1;
-    }
-  </style>
-  <body class="w3-light-grey w3-content" style="max-width: 1600px">
-    <!-- Sidebar/menu -->
-    <nav
-      class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
-      style="z-index: 3; width: 300px; font-weight: bold"
-      id="mySidebar"
-    >
-      <br />
-      <h3 class="w3-padding-64 w3-center">
-        <b>LUCY<br />KIM</b>
-      </h3>
-      <a
-        href="javascript:void(0)"
-        onclick="w3_close()"
-        class="w3-bar-item w3-button w3-padding w3-hide-large"
-        >CLOSE</a
-      >
-      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button"
-        >PORTFOLIO</a
-      >
-      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"
-        >ABOUT ME</a
-      >
-      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"
-        >CONTACT</a
-      >
-    </nav>
+    <title>Lucy Kim Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link rel="icon" type="image/jpeg" href="favicon.webp">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Montserrat", sans-serif;
+        }
+        .w3-third img {
+            margin-bottom: -6px;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        .w3-third img:hover {
+            opacity: 1;
+        }
+    </style>
+    <body class="w3-light-grey w3-content" style="max-width: 1600px">
+        <!-- Sidebar/menu -->
+        <nav
+            class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+            style="z-index: 3; width: 300px; font-weight: bold"
+            id="mySidebar"
+        >
+            <br />
+            <h3 class="w3-padding-64 w3-center"><b>LUCY<br />KIM</b></h3>
+            <a
+                href="javascript:void(0)"
+                onclick="w3_close()"
+                class="w3-bar-item w3-button w3-padding w3-hide-large"
+                >CLOSE</a
+            >
+            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        </nav>
 
-    <!-- Top menu on small screens -->
-    <header
-      class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16"
-    >
-      <span class="w3-left w3-padding">LUCY KIM</span>
-      <a
-        href="javascript:void(0)"
-        class="w3-right w3-button w3-white"
-        onclick="w3_open()"
-        >☰</a
-      >
-    </header>
+        <!-- Top menu on small screens -->
+        <header
+        class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16"
+        >
+        <span class="w3-left w3-padding">LUCY KIM</span>
+        <a
+            href="javascript:void(0)"
+            class="w3-right w3-button w3-white"
+            onclick="w3_open()"
+            >☰</a
+        >
+        </header>
 
-    <!-- Overlay effect when opening sidebar on small screens -->
-    <div
-      class="w3-overlay w3-hide-large w3-animate-opacity"
-      onclick="w3_close()"
-      style="cursor: pointer"
-      title="close side menu"
-      id="myOverlay"
-    ></div>
+        <!-- Overlay effect when opening sidebar on small screens -->
+        <div
+            class="w3-overlay w3-hide-large w3-animate-opacity"
+            onclick="w3_close()"
+            style="cursor: pointer"
+            title="close side menu"
+            id="myOverlay"
+        ></div>
 
-    <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-left: 300px">
-      <!-- Push down content on small screens -->
-      <div class="w3-hide-large" style="margin-top: 83px"></div>
+        <!-- !PAGE CONTENT! -->
+        <div class="w3-main" style="margin-left: 300px;">
 
-      <!-- VIDEO SECTION -->
-      <div class="w3-row">
+            <!-- Push down content on small screens -->
+            <div class="w3-hide-large" style="margin-top: 83px"></div>
 
-        <!-- VIDEO 1 -->
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/854261272?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Lucy Kim 2023 Reel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <!-- VIMEO EMBEDDED SECTION -->
+            <div class="w3-row">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/861869383?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ESPN Monday Night Football 2023 Brand Films"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/692444808?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="&quot;Pachinko&quot; Main Title"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/790539126?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="&quot;Mayfair Witches&quot; Main Title"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/657617093?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="&quot;Mayor of Kingstown&quot; Main Title"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/933922131?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="“A Brief History of the Future” - Main Title &amp; GFX Sequences"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/428357159?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SRP - Our Grid"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
 
-        <!-- VIDEO 2 -->
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/783458181?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="“1923” Main Title"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <hr class="w3-opacity" />
 
-        <!-- VIDEO 3 -->
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/64624118?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="REEL 2013"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <!-- About section -->
+            <div
+                class="w3-container w3-dark-grey w3-center w3-text-light-grey"
+                style="padding-bottom: 308px; padding-top: 44px;"
+                id="about"
+            >
+            <h4><b>About Me</b></h4>
 
-      </div>
+            <div class="w3-content w3-justify" style="max-width: 600px">
+                <h4>Lucy Kim</h4>
+                <p>
+                    Hi! I’m Lucy!  A passionate animator with over 12 years of experience in the animation industry. I thrive on creativity and collaboration, and I love bringing stories to life through engaging visuals.
+                    I believe that animation is a powerful medium for connection and expression, and I’m always looking for new ways to push the boundaries of my craft. I thrive in collaborative environments where I can learn from others and share my own insights. 
+                    I look forward to creating impactful animations that resonate with audiences and enhance their experiences.
+                </p>
+                <hr class="w3-opacity" />
 
-      <!-- About section -->
-      <div
-        class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32"
-        id="about"
-      >
-        <h4><b>About Me</b></h4>
+                <!-- Contact section -->
+                <div
+                    class="w3-container w3-padding-32"
+                    id="contact"
+                >
+                    <div class="w3-content w3-center" style="max-width: 600px; margin-bottom: 12px;">
+                        <h4><b>Contact Me</b></h4>
+                        lucykim5892@gmail.com
+                    </div>
+                </div>
+                <hr class="w3-opacity" />
+            </div>
 
-        <!-- YOU CAN PUT AN IMAGE OF YOURSELF HERE -->
-
-        <div class="w3-content w3-justify" style="max-width: 600px">
-          <h4>My Name</h4>
-          <p>
-            Some text about me. I love 2D animation. etc.. I am lorem ipsum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-          <p>mail: example@example.com</p>
-          <p>tel: 5353 35531</p>
-          <hr class="w3-opacity" />
-
-      <!-- Contact section -->
-      <div
-        class="w3-container w3-light-grey w3-padding-32"
-        id="contact"
-      >
-        <div class="w3-content" style="max-width: 600px">
-          <h4 class="w3-center"><b>Contact Me</b></h4>
-          Please email me at: <p>lucykim5892@gmail.com</p>.
+        <!-- End page content -->
         </div>
-      </div>
 
-      <!-- End page content -->
-    </div>
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
 
-    <script>
-      // Script to open and close sidebar
-      function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-      }
-
-      function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-      }
-
-      // Modal Image Gallery
-      function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-      }
-    </script>
-  </body>
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+    </body>
 </html>
